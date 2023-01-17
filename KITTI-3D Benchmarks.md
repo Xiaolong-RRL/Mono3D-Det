@@ -12,6 +12,7 @@ This benchmark follows this [repo](https://github.com/xinzhuma/3dodi-survey/blob
 | [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | CVPR'22 | 22.69 | 16.14 |13.64|
 | [DAE](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | CVPR'22 | 23.62 | 16.10 |13.41|
 | [OBMO](https://arxiv.org/abs/2212.10049) | arxiv'22 |22.71 | 15.70 |13.23|
+| [GPENet](https://arxiv.org/abs/2211.01556) | arxiv'22 | 22.41 | 15.44 |12.84|
 | [HOMO](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Homography_Loss_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | CVPR'22 | 21.75| 14.94 |13.07|
 | [MonoEdge](https://arxiv.org/abs/2301.01802) | WACV'23 |21.08 | 14.47 |12.73|
 | [DEVIANT](https://arxiv.org/pdf/2207.10758.pdf) | ECCV'22 | 21.88 | 14.46 |11.89|
