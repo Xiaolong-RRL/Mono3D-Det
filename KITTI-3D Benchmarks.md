@@ -1,5 +1,5 @@
 ## KITTI-3D Benchmarks
-This benchmark follows this [repo](https://github.com/xinzhuma/3dodi-survey/blob/master/docs/benchmark_kitti.md), thanks a lot! !
+This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma/3dodi-survey/blob/master/docs/benchmark_kitti.md), thanks a lot! !
 
 
 #### Standard Setting 
