@@ -7,7 +7,6 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | Paper | Code | Venue | Easy | Moderate\* | Hard |
 | :---: | :--: | :---: | :--: | :------: | :--: |
 | [MonoDDE](https://arxiv.org/abs/2205.09373.pdf) | None | CVPR'22 | 24.93 | 17.14 |15.10|
-| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | None | arxiv'22 | 23.84 | 16.52 |13.88|
 | [MonoCon](https://arxiv.org/pdf/2112.04628.pdf) | [Pytorch](https://github.com/Xianpeng919/MonoCon) | AAAI'22 | 22.50 | 16.46 |13.95|
 | [IDMS](https://arxiv.org/abs/2212.01528.pdf) | None | arxiv'22 | 22.50 | 16.19 |13.49|
 | [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | [Pytorch](https://github.com/lianqing11/MonoJSG) | CVPR'22 | 22.69 | 16.14 |13.64|
@@ -53,6 +52,7 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | ---- | :---: | :--: | :------: | :--: |
 | [DID-M3D](https://arxiv.org/pdf/2207.08531.pdf) | ECCV'22 | 24.40 | 16.29 |13.75|
 | [CMKD](https://arxiv.org/pdf/2211.07171.pdf) | ECCV'22 | 25.09 | 16.99 |15.30|
+| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | arxiv'22 | 23.84 | 16.52 |13.88|
 | [MonoDistill](https://arxiv.org/abs/2201.10830) | ICLR'22 | 22.97 | 16.03 |13.60|
 | [MonoDTR](https://arxiv.org/pdf/2203.10981.pdf) | CVPR'22 | 21.99 | 15.39 |12.73|
 | [CaDDN](https://arxiv.org/pdf/2103.01100.pdf) | CVPR'21 | 19.17 | 13.41 |11.46|
