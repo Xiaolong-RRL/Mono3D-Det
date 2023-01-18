@@ -4,43 +4,26 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 
 #### Standard Setting 
 
-|      | Venue | Easy | Moderate\* | Hard |
-| ---- | :---: | :--: | :------: | :--: |
-| [MonoDDE](https://arxiv.org/abs/2205.09373.pdf) | CVPR'22 | 24.93 | 17.14 |15.10|
-| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | arxiv'22 | 23.84 | 16.52 |13.88|
-| [MonoCon](https://arxiv.org/pdf/2112.04628.pdf) | AAAI'22 | 22.50 | 16.46 |13.95|
-| [IDMS](https://arxiv.org/abs/2212.01528.pdf) | arxiv'22 | 22.50 | 16.19 |13.49|
-| [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | CVPR'22 | 22.69 | 16.14 |13.64|
-| [DAE](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | CVPR'22 | 23.62 | 16.10 |13.41|
-| [OBMO](https://arxiv.org/abs/2212.10049.pdf) | arxiv'22 |22.71 | 15.70 |13.23|
-| [GPENet](https://arxiv.org/abs/2211.01556.pdf) | arxiv'22 | 22.41 | 15.44 |12.84|
-| [HOMO](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Homography_Loss_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | CVPR'22 | 21.75| 14.94 |13.07|
-| [MonoEdge](https://arxiv.org/abs/2301.01802.pdf) | WACV'23 |21.08 | 14.47 |12.73|
-| [DEVIANT](https://arxiv.org/pdf/2207.10758.pdf) | ECCV'22 | 21.88 | 14.46 |11.89|
-| [MonoGround](https://openaccess.thecvf.com/content/CVPR2022/papers/Qin_MonoGround_Detecting_Monocular_3D_Objects_From_the_Ground_CVPR_2022_paper.pdf) | CVPR'22 | 21.37 | 14.36 |12.67|
-| [GUPNet](https://arxiv.org/pdf/2107.13931.pdf) | ICCV'21 | 20.11 | 14.20 |11.77|
-| [MonoFlex](https://arxiv.org/pdf/2104.02323.pdf) | CVPR'21 | 19.94 | 13.89 |12.07|
-| [MonoDIS (multi)](https://ieeexplore.ieee.org/abstract/document/9200697) | T-PAMI'20 | 16.54 | 12.97 |11.04|
-| [Mono R-CNN](https://arxiv.org/pdf/2104.03775.pdf) | ICCV'21 | 18.36 | 12.65 |10.03|
-| [YOLOMono3D](https://arxiv.org/pdf/2103.09422.pdf) | ICRA'21 | 19.24 | 12.37 |8.67|
-| [GrooMed-NMS](https://arxiv.org/pdf/2103.17202.pdf) | CVPR'21 | 18.10 | 12.32 |9.65|
-| [MonoDLE](https://arxiv.org/pdf/2103.16237.pdf) | CVPR'21 | 17.23 | 12.26 |10.29|
-| [PGL](https://arxiv.org/pdf/2103.16237.pdf) | CVPR'21 | 19.05 | 11.76 |9.39|
-| [M3DSSD](https://arxiv.org/pdf/2107.14160.pdf) | CVPR'21 | 17.51 | 11.46 |8.98|
-| [KM3D](https://arxiv.org/pdf/2009.00764.pdf) | RA-L'21 | 16.73 | 11.45 |9.92|
-| [RAR-Net](https://arxiv.org/pdf/2008.13748.pdf) | ECCV'20 | 16.37 | 11.01 |9.52|
-| [ImVoxelNet](https://arxiv.org/pdf/2108.09663.pdf) | WACV'22 | 17.15 | 10.97 |9.15|
-| [MoVI-3D](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670766.pdf) | ECCV'20 | 15.19 | 10.90 |9.26|
-| [MonoPair](https://arxiv.org/pdf/2003.00504.pdf) | CVPR'20 | 13.04 | 9.99 |8.65|
-| [M3D-RPN](https://arxiv.org/pdf/1907.06038.pdf) | ICCV'19 | 14.76 | 9.71 |7.42|
-| [UR3D](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740086.pdf) | ECCV'20 | 15.58 | 8.61 |6.00|
-| [MonoDIS](https://arxiv.org/pdf/1905.12365.pdf) | ICCV'19 | 10.37 | 7.94 |6.40|
-| [Mono3D_PLiDAR](https://arxiv.org/pdf/1903.09847.pdf) | ICCVW'19 | 10.76 | 7.50 |6.10|
-| [MonoGRNet](https://arxiv.org/pdf/1811.10247.pdf) | AAAI'19 | 9.61 | 5.74 |4.25|
-| [Shift R-CNN](https://arxiv.org/pdf/1905.09970.pdf) | ICIP'19 | 6.88 | 3.87 |2.83x|
-| [GS3D](https://arxiv.org/pdf/1903.10955.pdf) | CVPR'19 | 4.47 | 2.90 |2.47|
-| [MVRA](https://openaccess.thecvf.com/content_ICCVW_2019/papers/ADW/Choi_Multi-View_Reprojection_Architecture_for_Orientation_Estimation_ICCVW_2019_paper.pdf) | ICCVW'19 | 5.19 | 3.27 |2.49|
-| [FQNet](https://arxiv.org/pdf/1904.12681.pdf) | CVPR'19 | 2.77 | 1.51 |1.01|
+| Paper | Code | Venue | Easy | Moderate\* | Hard |
+| :---: | :--: | :---: | :--: | :------: | :--: |
+| [MonoDDE](https://arxiv.org/abs/2205.09373.pdf) | None | CVPR'22 | 24.93 | 17.14 |15.10|
+| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | None | arxiv'22 | 23.84 | 16.52 |13.88|
+| [MonoCon](https://arxiv.org/pdf/2112.04628.pdf) | [Pytorch](https://github.com/Xianpeng919/MonoCon) | AAAI'22 | 22.50 | 16.46 |13.95|
+| [IDMS](https://arxiv.org/abs/2212.01528.pdf) | None | arxiv'22 | 22.50 | 16.19 |13.49|
+| [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | [Pytorch](https://github.com/lianqing11/MonoJSG) | CVPR'22 | 22.69 | 16.14 |13.64|
+| [DAE](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | None | CVPR'22 | 23.62 | 16.10 |13.41|
+| [OBMO](https://arxiv.org/abs/2212.10049.pdf) | None | arxiv'22 |22.71 | 15.70 |13.23|
+| [GPENet](https://arxiv.org/abs/2211.01556.pdf) | None | arxiv'22 | 22.41 | 15.44 |12.84|
+| [HOMO](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Homography_Loss_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | None | CVPR'22 | 21.75| 14.94 |13.07|
+| [MonoEdge](https://arxiv.org/abs/2301.01802.pdf) | None | WACV'23 |21.08 | 14.47 |12.73|
+| [DEVIANT](https://arxiv.org/pdf/2207.10758.pdf) | [Pytorch](https://github.com/abhi1kumar/DEVIANT) | ECCV'22 | 21.88 | 14.46 |11.89|
+| [MonoGround](https://openaccess.thecvf.com/content/CVPR2022/papers/Qin_MonoGround_Detecting_Monocular_3D_Objects_From_the_Ground_CVPR_2022_paper.pdf) | [Pytorch](https://github.com/cfzd/MonoGround) | CVPR'22 | 21.37 | 14.36 |12.67|
+| [GUPNet](https://arxiv.org/pdf/2107.13931.pdf) | [Pytorch](https://github.com/SuperMHP/GUPNet) | ICCV'21 | 20.11 | 14.20 |11.77|
+| [MonoFlex](https://arxiv.org/pdf/2104.02323.pdf) | [Pytorch](https://github.com/zhangyp15/MonoFlex) | CVPR'21 | 19.94 | 13.89 |12.07|
+| [MonoRCNN](https://arxiv.org/pdf/2104.03775.pdf) | [Pytorch](https://github.com/Rock-100/MonoDet) | ICCV'21 | 18.36 | 12.65 |10.03|
+| [MonoDLE](https://arxiv.org/pdf/2103.16237.pdf) | [Pytorch](https://github.com/xinzhuma/monodle) | CVPR'21 | 17.23 | 12.26 |10.29|
+| [MonoPair](https://arxiv.org/pdf/2003.00504.pdf) | None | CVPR'20 | 13.04 | 9.99 |8.65|
+| [MonoGRNet](https://arxiv.org/pdf/1811.10247.pdf) | [Pytorch](https://github.com/Zengyi-Qin/MonoGRNet) | AAAI'19 | 9.61 | 5.74 |4.25|
 
 
 
