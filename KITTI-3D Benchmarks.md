@@ -11,7 +11,7 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [IDMS](https://arxiv.org/abs/2212.01528.pdf) | None | arxiv'22 | 22.50 | 16.19 |13.49|
 | [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | [Pytorch](https://github.com/lianqing11/MonoJSG) | CVPR'22 | 22.69 | 16.14 |13.64|
 | [DAE](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | None | CVPR'22 | 23.62 | 16.10 |13.41|
-| [OBMO](https://arxiv.org/abs/2212.10049.pdf) | None | arxiv'22 |22.71 | 15.70 |13.23|
+| [OBMO](https://arxiv.org/abs/2212.10049.pdf) | [Pytorch](https://github.com/mrsempress/OBMO) | arxiv'22 |22.71 | 15.70 |13.23|
 | [GPENet](https://arxiv.org/abs/2211.01556.pdf) | None | arxiv'22 | 22.41 | 15.44 |12.84|
 | [HOMO](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Homography_Loss_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf) | None | CVPR'22 | 21.75| 14.94 |13.07|
 | [MonoEdge](https://arxiv.org/abs/2301.01802.pdf) | None | WACV'23 |21.08 | 14.47 |12.73|
