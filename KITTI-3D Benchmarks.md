@@ -26,6 +26,20 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [MonoGRNet](https://arxiv.org/pdf/1811.10247.pdf) | [Pytorch](https://github.com/Zengyi-Qin/MonoGRNet) | AAAI'19 | 9.61 | 5.74 |4.25|
 
 
+#### LiDAR Signal [training]
+
+|      | Code | Venue | Easy | Moderate\* | Hard |
+| ---- | :---:| :---: | :--: | :------: | :--: |
+| [CMKD](https://arxiv.org/pdf/2211.07171.pdf) | [Pytorch](https://github.com/Cc-Hy/CMKD) | ECCV'22 | 25.09 | 16.99 |15.30|
+| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | None | arxiv'22 | 23.84 | 16.52 |13.88|
+| [DID-M3D](https://arxiv.org/pdf/2207.08531.pdf) | [Pytorch](https://github.com/SPengLiang/DID-M3D) | ECCV'22 | 24.40 | 16.29 |13.75|
+| [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
+| [MonoDTR](https://arxiv.org/pdf/2203.10981.pdf) | [Pytorch](https://github.com/kuanchihhuang/MonoDTR) | CVPR'22 | 21.99 | 15.39 |12.73|
+| [CaDDN](https://arxiv.org/pdf/2103.01100.pdf) | [Pytorch](https://github.com/open-mmlab/OpenPCDet) | CVPR'21 | 19.17 | 13.41 |11.46|
+| [MonoRUn](https://arxiv.org/abs/2103.12605.pdf) | [Pytorch](https://github.com/tjiiv-cprg/MonoRUn) | CVPR'21 | 19.65 | 12.30 |10.58|
+| [Ouyang et al.](https://openaccess.thecvf.com/content/ACCV2020/papers/Ouyang_Dynamic_Depth_Fusion_and_Transformation_for_Monocular_3D_Object_Detection_ACCV_2020_paper.pdf) | None | ACCV'20 | 11.52 | 8.26 |6.97|
+| [MonoPSR](https://arxiv.org/pdf/1904.01690.pdf) | None | CVPR'19 | 10.76 | 7.25 |5.85|
+
 
 #### CAD Model [training]
 
@@ -44,23 +58,6 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [DLE](https://www.bmvc2021-virtualconference.com/assets/papers/0299.pdf) | BMVC'21 | 24.23 | 14.33 |10.30|
 | [Ground-Aware](https://arxiv.org/pdf/2102.00690.pdf) | RA-L'21 | 21.65 | 13.25 |9.91|
 | [RTM3D](https://arxiv.org/pdf/2001.03343.pdf) | ECCV'20 | 14.41 | 10.34 |8.77|
-
-
-
-#### LiDAR Signal [training]
-
-|      | Venue | Easy | Moderate\* | Hard |
-| ---- | :---: | :--: | :------: | :--: |
-| [DID-M3D](https://arxiv.org/pdf/2207.08531.pdf) | ECCV'22 | 24.40 | 16.29 |13.75|
-| [CMKD](https://arxiv.org/pdf/2211.07171.pdf) | ECCV'22 | 25.09 | 16.99 |15.30|
-| [Shape-Aware](https://arxiv.org/abs/2204.08717.pdf) | arxiv'22 | 23.84 | 16.52 |13.88|
-| [MonoDistill](https://arxiv.org/abs/2201.10830) | ICLR'22 | 22.97 | 16.03 |13.60|
-| [MonoDTR](https://arxiv.org/pdf/2203.10981.pdf) | CVPR'22 | 21.99 | 15.39 |12.73|
-| [CaDDN](https://arxiv.org/pdf/2103.01100.pdf) | CVPR'21 | 19.17 | 13.41 |11.46|
-| [MonoRUn](https://arxiv.org/abs/2103.12605.pdf) | CVPR'21 | 19.65 | 12.30 |10.58|
-| [Ouyang et al.](https://openaccess.thecvf.com/content/ACCV2020/papers/Ouyang_Dynamic_Depth_Fusion_and_Transformation_for_Monocular_3D_Object_Detection_ACCV_2020_paper.pdf) | ACCV'20 | 11.52 | 8.26 |6.97|
-| [MonoPSR](https://arxiv.org/pdf/1904.01690.pdf) | CVPR'19 | 10.76 | 7.25 |5.85|
-
 
 
 #### External Data [training] 
