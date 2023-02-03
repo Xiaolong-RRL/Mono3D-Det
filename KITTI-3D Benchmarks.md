@@ -7,6 +7,7 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | Paper | Code | Venue | Easy | Moderate\* | Hard |
 | :---: | :--: | :---: | :--: | :------: | :--: |
 | [MonoDDE](https://arxiv.org/abs/2205.09373.pdf) | None | CVPR'22 | 24.93 | 17.14 |15.10|
+| [MonoDETR](https://arxiv.org/abs/2203.13310) | [Pytorch](https://github.com/ZrrSkywalker/MonoDETR) | arxiv'22 | 25.00 | 16.47 | 13.58|
 | [MonoCon](https://arxiv.org/pdf/2112.04628.pdf) | [Pytorch](https://github.com/Xianpeng919/MonoCon) | AAAI'22 | 22.50 | 16.46 |13.95|
 | [IDMS](https://arxiv.org/abs/2212.01528.pdf) | None | arxiv'22 | 22.50 | 16.19 |13.49|
 | [MonoJSG](https://arxiv.org/pdf/2203.08563.pdf) | [Pytorch](https://github.com/lianqing11/MonoJSG) | CVPR'22 | 22.69 | 16.14 |13.64|
