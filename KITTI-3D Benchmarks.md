@@ -23,7 +23,9 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [MonoRCNN](https://arxiv.org/pdf/2104.03775.pdf) | [Pytorch](https://github.com/Rock-100/MonoDet) | ICCV'21 | 18.36 | 12.65 |10.03|
 | [MonoDLE](https://arxiv.org/pdf/2103.16237.pdf) | [Pytorch](https://github.com/xinzhuma/monodle) | CVPR'21 | 17.23 | 12.26 |10.29|
 | [MonoPair](https://arxiv.org/pdf/2003.00504.pdf) | None | CVPR'20 | 13.04 | 9.99 |8.65|
+| [SMOKE](https://arxiv.org/pdf/2002.10111.pdf) | [Pytorch](https://github.com/lzccccc/SMOKE) | CVPRW'20 | 14.17 |	9.88 | 8.63|
 | [MonoGRNet](https://arxiv.org/pdf/1811.10247.pdf) | [Pytorch](https://github.com/Zengyi-Qin/MonoGRNet) | AAAI'19 | 9.61 | 5.74 |4.25|
+
 
 
 #### LiDAR Signal [training]
@@ -39,6 +41,14 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [MonoRUn](https://arxiv.org/abs/2103.12605.pdf) | [Pytorch](https://github.com/tjiiv-cprg/MonoRUn) | CVPR'21 | 19.65 | 12.30 |10.58|
 | [Ouyang et al.](https://openaccess.thecvf.com/content/ACCV2020/papers/Ouyang_Dynamic_Depth_Fusion_and_Transformation_for_Monocular_3D_Object_Detection_ACCV_2020_paper.pdf) | None | ACCV'20 | 11.52 | 8.26 |6.97|
 | [MonoPSR](https://arxiv.org/pdf/1904.01690.pdf) | None | CVPR'19 | 10.76 | 7.25 |5.85|
+
+
+#### KD Method & LiDAR Signal [training]
+
+|      | Code | Venue | Easy | Moderate\* | Hard |
+| ---- | :---:| :---: | :--: | :------: | :--: |
+| [CMKD](https://arxiv.org/pdf/2211.07171.pdf) | [Pytorch](https://github.com/Cc-Hy/CMKD) | ECCV'22 | 25.09 | 16.99 |15.30|
+| [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
 
 
 #### CAD Model [training]
