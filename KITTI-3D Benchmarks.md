@@ -47,7 +47,9 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 
 |      | Code | Venue | Easy | Moderate\* | Hard |
 | ---- | :---:| :---: | :--: | :------: | :--: |
+| [Mix-Teaching](https://arxiv.org/abs/2207.04448v1) | [Pytorch](https://github.com/yanglei18/Mix-Teaching) | arXiv'22 | 26.89| 18.54| 15.79|
 | [CMKD](https://arxiv.org/pdf/2211.07171.pdf) | [Pytorch](https://github.com/Cc-Hy/CMKD) | ECCV'22 | 25.09 | 16.99 |15.30|
+| [ADD](https://arxiv.org/abs/2211.16779) | None | arXiv'22 | 25.61| 16.81| 13.79|
 | [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
 
 
