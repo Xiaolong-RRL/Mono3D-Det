@@ -15,6 +15,7 @@ graph TD;
 graph TD;
 	SMOKE-->MonoFlex-->MonoGround;
 	MonoFlex-->DCD+CAD;
+	MonoFlex-->Mix-Teaching+depth+KD;
 ```
 
 - **MonoDLE**
