@@ -54,6 +54,13 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
 
 
+#### Temporal Sequence [training&testing]
+
+|      | Venue | Easy | Moderate\* | Hard |
+| ---- | :---: | :--: | :------: | :--: |
+| [DfM](https://arxiv.org/pdf/2207.12988.pdf) | ECCV'22 | 22.94 | 16.82 |14.65|
+| [Kinematic3D](https://arxiv.org/pdf/2007.09548.pdf) | ECCV'20 | 19.07 | 12.72 |9.17|
+| [QD-3DT](https://arxiv.org/pdf/2103.07351.pdf) | arXiv'21 | 12.91 | 9.33 |7.86|
 ---
 
 #### CAD Model [training]
@@ -111,16 +118,6 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | ---- | :---: | :--: | :--: | :------: | :--: |
 | [pseudo-Stereo](https://arxiv.org/pdf/2203.02112.pdf) | KITTI-Depth  | CVPR'22 | 23.74 |    17.74    |15.14 |
 | [DA-3Ddet](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540018.pdf) | KITTI-Depth  | ECCV'20 | 16.77 |    11.50    |8.93|
-
-
-
-#### Temporal Sequence [training&testing]
-
-|      | Venue | Easy | Moderate\* | Hard |
-| ---- | :---: | :--: | :------: | :--: |
-| [DfM](https://arxiv.org/pdf/2207.12988.pdf) | ECCV'22 | 22.94 | 16.82 |14.65|
-| [Kinematic3D](https://arxiv.org/pdf/2007.09548.pdf) | ECCV'20 | 19.07 | 12.72 |9.17|
-| [QD-3DT](https://arxiv.org/pdf/2103.07351.pdf) | arXiv'21 | 12.91 | 9.33 |7.86|
 
 
 
