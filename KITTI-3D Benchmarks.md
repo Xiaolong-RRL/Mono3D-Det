@@ -58,7 +58,7 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 |      | Code | Venue | Easy | Moderate\* | Hard |
 | :---: | :---:| :---: | :--: | :------: | :--: |
 | [WeakMono3D](https://arxiv.org/abs/2303.08686) | [Pytorch](https://github.com/weakmono3d/weakmono3d) | CVPR'23 | 6.98| 4.85|4.45|
-| [WeakM3D](https://arxiv.org/pdf/2211.07171.pdf) | [Pytorch](https://github.com/SPengLiang/WeakM3D) | ICLR'22 | 5.03 | 2.26 | 1.63 |
+| [WeakM3D](https://arxiv.org/abs/2203.08332) | [Pytorch](https://github.com/SPengLiang/WeakM3D) | ICLR'22 | 5.03 | 2.26 | 1.63 |
 
 
 #### Temporal Sequence [training&testing]
