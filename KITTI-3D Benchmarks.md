@@ -1,5 +1,5 @@
 ## KITTI-3D Benchmarks
-This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma/3dodi-survey/blob/master/docs/benchmark_kitti.md), thanks a lot! !
+This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma/3dodi-survey/blob/master/docs/benchmark_kitti.md) and [Awesome-Monocular-3D-detection](https://github.com/BigTeacher-777/Awesome-Monocular-3D-detection), thanks a lot! !
 
 
 #### Standard Setting 
