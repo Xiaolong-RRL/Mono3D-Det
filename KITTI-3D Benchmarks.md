@@ -6,6 +6,7 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 
 | Paper | Code | Venue | Easy | Moderate\* | Hard |
 | :---: | :--: | :---: | :--: | :------: | :--: |
+| [MonoATT](https://arxiv.org/abs/2303.13018) | None | CVPR'23 |24.72 | 17.37 | 15.00 |
 | [MonoPGC](https://arxiv.org/abs/2302.10549) | None | ICRA'23 | 24.68 | 17.17 |14.14|
 | [MonoDDE](https://arxiv.org/abs/2205.09373.pdf) | None | CVPR'22 | 24.93 | 17.14 |15.10|
 | [MonoDETR](https://arxiv.org/abs/2203.13310) | [Pytorch](https://github.com/ZrrSkywalker/MonoDETR) | arxiv'22 | 25.00 | 16.47 | 13.58|
@@ -26,7 +27,6 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [MonoPair](https://arxiv.org/pdf/2003.00504.pdf) | None | CVPR'20 | 13.04 | 9.99 |8.65|
 | [SMOKE](https://arxiv.org/pdf/2002.10111.pdf) | [Pytorch](https://github.com/lzccccc/SMOKE) | CVPRW'20 | 14.17 |	9.88 | 8.63|
 | [MonoGRNet](https://arxiv.org/pdf/1811.10247.pdf) | [Pytorch](https://github.com/Zengyi-Qin/MonoGRNet) | AAAI'19 | 9.61 | 5.74 |4.25|
-
 
 
 #### LiDAR Signal [training]
@@ -53,6 +53,13 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [ADD](https://arxiv.org/abs/2211.16779) | None | arXiv'22 | 25.61| 16.81| 13.79|
 | [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
 
+### Weak Supervision
+
+|      | Code | Venue | Easy | Moderate\* | Hard |
+| :---: | :---:| :---: | :--: | :------: | :--: |
+| [WeakMono3D](https://arxiv.org/abs/2303.08686) | [Pytorch](https://github.com/weakmono3d/weakmono3d) | CVPR'23 | 6.98| 4.85|4.45|
+| [WeakM3D](https://arxiv.org/pdf/2211.07171.pdf) | [Pytorch](https://github.com/SPengLiang/WeakM3D) | ICLR'22 | 5.03 | 2.26 | 1.63 |
+
 
 #### Temporal Sequence [training&testing]
 
@@ -61,6 +68,8 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [DfM](https://arxiv.org/pdf/2207.12988.pdf) | ECCV'22 | 22.94 | 16.82 |14.65|
 | [Kinematic3D](https://arxiv.org/pdf/2007.09548.pdf) | ECCV'20 | 19.07 | 12.72 |9.17|
 | [QD-3DT](https://arxiv.org/pdf/2103.07351.pdf) | arXiv'21 | 12.91 | 9.33 |7.86|
+
+
 ---
 
 #### CAD Model [training]
