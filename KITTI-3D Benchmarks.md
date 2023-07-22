@@ -74,6 +74,11 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [Kinematic3D](https://arxiv.org/pdf/2007.09548.pdf) | ECCV'20 | 19.07 | 12.72 |9.17|
 | [QD-3DT](https://arxiv.org/pdf/2103.07351.pdf) | arXiv'21 | 12.91 | 9.33 |7.86|
 
+#### Occupancy
+
+|      | Code | Venue | Easy | Moderate\* | Hard |
+| :---: | :---:| :---: | :--: | :------: | :--: |
+| [OccupancyM3D](https://arxiv.org/abs/2305.15694) |[Pytorch](https://github.com/SPengLiang/OccupancyM3D) | arxiv'23 | 26.87 | 19.96 | 17.15 |
 
 ---
 
