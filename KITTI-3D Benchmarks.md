@@ -53,13 +53,18 @@ This benchmark follows the nice work: [3dodi-survey](https://github.com/xinzhuma
 | [ADD](https://arxiv.org/abs/2211.16779) | None | arXiv'22 | 25.61| 16.81| 13.79|
 | [MonoDistill](https://arxiv.org/abs/2201.10830) | [Pytorch](https://github.com/monster-ghost/MonoDistill) | ICLR'22 | 22.97 | 16.03 |13.60|
 
-### Weak Supervision
+#### Weak Supervision
 
 |      | Code | Venue | Easy | Moderate\* | Hard |
 | :---: | :---:| :---: | :--: | :------: | :--: |
 | [WeakMono3D](https://arxiv.org/abs/2303.08686) | [Pytorch](https://github.com/weakmono3d/weakmono3d) | CVPR'23 | 6.98| 4.85|4.45|
 | [WeakM3D](https://arxiv.org/abs/2203.08332) | [Pytorch](https://github.com/SPengLiang/WeakM3D) | ICLR'22 | 5.03 | 2.26 | 1.63 |
 
+#### Semi Supervised Active Learning
+
+|      | Code | Venue | Easy | Moderate\* | Hard |
+| :---: | :---:| :---: | :--: | :------: | :--: |
+| [MonoLiG](https://arxiv.org/abs/2307.08415) | None | arxiv'23 | -|-|-|
 
 #### Temporal Sequence [training&testing]
 
